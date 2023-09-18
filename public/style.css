@@ -5,6 +5,7 @@
 body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
+	background-color: #000000;
 }
 a {
 	color:#5f0099;
@@ -40,7 +41,7 @@ h6 {
 	z-index: 1030;
 }
 .navbar .active {
-	color: #c6151b !important;
+	color: #fe900d !important;
 }
 .navbar .navbar-brand {
 }
@@ -55,7 +56,7 @@ h6 {
 	font-size: 13px;
 }
 .navbar .nav-item a:hover {
-	color: #FF6367;
+	color: #f9c122;
 }
 .navbar .nav-link {
 	position: relative;
@@ -71,7 +72,7 @@ h6 {
 	display: none;
 }
 .nav-scroll {
-	background: #fff;
+	background: #f9c122;
 	-webkit-box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
 	box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.0509803922);
 	-webkit-transition: all .4s ease;
@@ -91,14 +92,14 @@ h6 {
 	color: #333;
 }
 .nav-scroll .nav-link:hover:after {
-	background-color: #FF6367;
+	background-color: #f9c122;
 }
 .nav-scroll .active {
 	position: relative;
 }
 .banner {
-	background: #FF6367;
-	background: linear-gradient(to left, #c6151b, #FF6367);
+	background: #f9c122;
+	background: linear-gradient(to left, #fe900d, #f9c122);
 	padding:100px 0px;
 	position:relative;
 }
@@ -158,7 +159,7 @@ h6 {
 .line {
 	height: 2px;
 	width: 50px;
-	background: #c6151b;
+	background: #fe900d;
 	display: block;
 	margin: 20px auto 20px;
 }
@@ -168,7 +169,7 @@ h6 {
 	left: 50%;
 	width: 150px;
 	height: 2px;
-	border-bottom: 2px dashed #c6151b;
+	border-bottom: 2px dashed #fe900d;
 	margin-left: -75px;
 }
 .sectioner-header p {
@@ -187,8 +188,8 @@ h6 {
 	width: 135px;
 	height: 135px;
 	border-radius: 100px;
-	background: #c6151b;
-	background:  linear-gradient(to left, #c6151b, #FF6367);
+	background: #fe900d;
+	background:  linear-gradient(to left, #fe900d, #f9c122);
 	color: #ffffff;
 	font-size: 50px;
 	line-height: 135px;
@@ -298,13 +299,13 @@ h6 {
 	width: 50px;
 	height: 50px;
 	border-radius: 100px;
-	color: #FF6367;
+	color: #f9c122;
 	font-size: 18px;
 	line-height: 50px;
-	border: 1px solid #c6151b;
+	border: 1px solid #fe900d;
 }
 .team {
-	background: #fafafa;
+	background: #000000;
 	border-top: 1px solid #e4e4e4;
 }
 .team-detail {
@@ -315,7 +316,7 @@ h6 {
 	width: 70%;
 }
 .team-detail h4 {
-	color: #c6151b;
+	color: #fe900d;
 	margin-top: 20px;
 	font-size: 17px;
 	margin-bottom: 0px;
@@ -485,8 +486,8 @@ input {
 	border-radius: 7px;
 }
 .footer-copy {
-	background: #ffffff;
-	color: #242424;
+	background: #000000;
+	color: #FFFFFF;
 	font-size: 13px;
 	text-align: center;
 	padding:15px 0px;
